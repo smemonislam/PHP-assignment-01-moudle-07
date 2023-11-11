@@ -8,6 +8,6 @@ class UserController extends Controller
 {
     public function index()
     {
-        echo 'Hello, Laravel!';
+        return 'Hello, Laravel!';
     }
 }
